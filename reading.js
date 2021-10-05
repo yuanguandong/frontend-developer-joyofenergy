@@ -1,3 +1,5 @@
+
+
 export const getReadings = async (length = 1200) => {
   const current = Date.now();
   const hour = 1000 * 60 * 60;
@@ -25,6 +27,7 @@ export const groupByDay = (readings) => {
     value,
   }));
 };
+
 
 export const sortByTime = (readings) => {
   return [...readings].sort(

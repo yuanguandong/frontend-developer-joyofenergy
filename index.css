@@ -52,19 +52,15 @@ html {
 }
 
 .bg-blue {
-  background: linear-gradient(
-    0deg,
-    rgba(90, 142, 239, 1) 0%,
-    rgba(111, 162, 243, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(90, 142, 239, 1) 0%,
+      rgba(111, 162, 243, 1) 100%);
 }
 
 .bg-light-grey {
-  background: linear-gradient(
-    0deg,
-    rgb(232, 232, 232) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  background: linear-gradient(0deg,
+      rgb(232, 232, 232) 0%,
+      rgb(255, 255, 255) 100%);
 }
 
 .bg-super-light-grey {
@@ -101,4 +97,33 @@ html {
 
 .border-grey {
   border: 1px solid rgb(225, 225, 225);
+}
+
+.card-container {
+  display: flex;
+  margin: 10px;
+}
+
+.num-card {
+  flex: 1;
+  border-radius: 5px;
+  background: #fff;
+  margin: 10px;
+  padding:10px;
+}
+
+.num-card .title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height:20px;
+}
+
+.num-card .count {
+  font-size: 18px;
+  color:rgba(128,128,128,0.5)
+}
+
+.num-card .unit {
+  font-size: 12px;
+  color:rgba(128,128,128,0.5)
 }
